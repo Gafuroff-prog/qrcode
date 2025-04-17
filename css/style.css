@@ -1,0 +1,50 @@
+h2{
+    text-align: center;
+    font-size: 36px;
+    color: #333;
+}
+#text{
+    padding: 15px;
+    font-size: 18px;
+    color: #666;
+    height: 10px;
+    border-radius: 15px;
+    border: 1px solid;
+    left: 540px;
+}
+#text:hover{
+    background-color: #f0f0f0;
+    border-color: #ccc;
+    cursor: pointer;
+}
+input{
+    cursor: grab;
+    position: relative;
+    
+}
+button{
+    cursor: pointer;
+    position: relative;
+    left: 560px;
+    top: 260px;
+    width: 240px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid;
+    border-radius: 15px;
+}
+
+label{
+    font-size: 20px;
+    color: #333;
+    position: relative;
+    left: 590px;
+    top: 250px;
+}
+#qrcode{
+    position: relative;
+    left: 560px;
+    width: 100px;
+    height: 100px;
+    bottom: 130px;
+}

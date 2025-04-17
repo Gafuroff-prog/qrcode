@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QR Code Generator</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <h2>QR Code Generator</h2>
+
+  <input type="text" id="text" placeholder="enter link" />
+  <br><br>
+  <label id="dark">Dark rang: <input type="color" id="darkColor" value="#000000"></label>
+  <br><br>
+  <label>Light rang: <input type="color" id="lightColor" value="#ffffff"></label>
+  <br><br>
+  <button onclick="generateQR()">Generatsiya qilish</button>
+
+  <div id="qrcode" style="margin-top: 20px;"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="/js/script.js"></script>
+
+</body>
+</html>
